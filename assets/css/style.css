@@ -1,4 +1,33 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
 } 
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "nav main main"
+        "footer footer footer";
+    grid-template-columns: 10% 1fr;
+    grid-template-rows: 1fr 9fr 1fr;
+    height: 100vh;
+}
+
+/* Areas */
+.header{
+    grid-area: header;
+    background-color: aqua;
+}
+.navbar{
+    grid-area: nav;
+    background-color: aquamarine;
+}
+.main{
+    grid-area: main;
+    background-color: blueviolet;
+}
+.footer{
+    grid-area: footer;
+    background-color: cadetblue;
+}
