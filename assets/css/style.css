@@ -18,8 +18,6 @@
 .header{
     grid-area: header;
     background-color: #D4C685;
-    /* background-color: #283845; */
-    /* background-color: #cbcaa4; */
     color: #ffffff;
     text-align: center;
     display: flex;
@@ -95,6 +93,7 @@
     background-color: #e4e7d9;  
     padding: 7px 14px ;
     border-radius: 10px;
+    cursor: pointer;
 }
 .navbar ul li .icon_menu{
     font-size: .9rem;
@@ -117,6 +116,7 @@
 .card:hover{
     background-color: #2838450d;
     border-radius: 10px;
+    cursor: pointer;
 }
 .card img{
     width: 230px;
@@ -149,4 +149,17 @@
     border: none;
     padding: 8px 30px;
     border-radius: 50px;
+    cursor: pointer;
+}
+.card button:hover{
+    background-color: #b2a466;
+}
+.footer{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    font-weight: 300;
+    font-size: .7rem;
 }
